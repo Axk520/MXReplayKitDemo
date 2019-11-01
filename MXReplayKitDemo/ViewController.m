@@ -77,14 +77,14 @@
 - (void)mx_recorderAvailable {
     
     if ([_recorder isAvailable]) {
-        [self mx_startREC];
+        [self mx_startCapture];
     } else {
         NSLog(@"请允许App录制屏幕且使用麦克风(选择第一项)，否则无法进行录屏");
     }
 }
 
 // 开始录制
-- (void)mx_startREC {
+- (void)mx_startCapture {
     
     //是否录麦克风的声音（如果只想要App内的声音，设置为NO即可）
     _recorder.microphoneEnabled = NO;
@@ -92,12 +92,6 @@
     if ([_recorder isRecording]) {
         NSLog(@"正在录制...");
     } else {
-        [_recorder startRecordingWithHandler:^(NSError * _Nullable error) {
-            if (!error) {
-                NSLog(@"启动录屏成功...");
-            }
-        }];
-        return ;
         if (@available(iOS 11.0, *)) {
             [_recorder startCaptureWithHandler:^(CMSampleBufferRef _Nonnull sampleBuffer, RPSampleBufferType bufferType, NSError * _Nullable error) {
                 //CMSampleBufferRef 视频+音频原始帧数据 (帧数据处理可参考部分开源直播SDk)
@@ -133,7 +127,7 @@
 //停止录屏
 - (void)stopRecord {
  
-    if (@available(iOS 11.0, *) && NO) {
+    if (@available(iOS 11.0, *)) {
         [_recorder stopCaptureWithHandler:^(NSError * _Nullable error) {
             
         }];
@@ -191,7 +185,7 @@
 //压缩完保存视频到沙盒
 - (void)mx_saveVideoToDocument:(NSURL *)videoURL {
     
-    NSString * outPath = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:[@"mx_test_replay1" stringByAppendingString:@".mp4"]];
+    NSString * outPath = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:[@"mx_test_replay" stringByAppendingString:@".mp4"]];
     [MXReplayManager mx_compressQuailtyWithInputURL:videoURL outputURL:[NSURL fileURLWithPath:outPath] blockHandler:^(AVAssetExportSession * _Nonnull session) {
         if (session.status == AVAssetExportSessionStatusCompleted) {
             NSLog(@"视频已处理好可以对其进行操作");
