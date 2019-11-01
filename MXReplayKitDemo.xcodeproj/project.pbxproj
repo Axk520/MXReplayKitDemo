@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FE8AAB236C247000C10E0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AAA236C247000C10E0E /* AppDelegate.m */; };
+		46FE8AAE236C247000C10E0E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AAD236C247000C10E0E /* SceneDelegate.m */; };
+		46FE8AB1236C247000C10E0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AB0236C247000C10E0E /* ViewController.m */; };
+		46FE8AB4236C247000C10E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FE8AB2236C247000C10E0E /* Main.storyboard */; };
+		46FE8AB6236C247500C10E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FE8AB5236C247500C10E0E /* Assets.xcassets */; };
+		46FE8AB9236C247500C10E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FE8AB7236C247500C10E0E /* LaunchScreen.storyboard */; };
+		46FE8ABC236C247500C10E0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8ABB236C247500C10E0E /* main.m */; };
+		46FE8AC6236C247500C10E0E /* MXReplayKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AC5236C247500C10E0E /* MXReplayKitDemoTests.m */; };
+		46FE8AD1236C247500C10E0E /* MXReplayKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AD0236C247500C10E0E /* MXReplayKitDemoUITests.m */; };
+		46FE8AE1236C24CB00C10E0E /* MXReplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE8AE0236C24CB00C10E0E /* MXReplayManager.m */; };
+		46FE8AE3236C24E000C10E0E /* ReplayKit_Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46FE8AE2236C24E000C10E0E /* ReplayKit_Demo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FE8AC2236C247500C10E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FE8A9E236C247000C10E0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FE8AA5236C247000C10E0E;
+			remoteInfo = MXReplayKitDemo;
+		};
+		46FE8ACD236C247500C10E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FE8A9E236C247000C10E0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FE8AA5236C247000C10E0E;
+			remoteInfo = MXReplayKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46FE8AA6236C247000C10E0E /* MXReplayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXReplayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FE8AA9236C247000C10E0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46FE8AAA236C247000C10E0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46FE8AAC236C247000C10E0E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		46FE8AAD236C247000C10E0E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		46FE8AAF236C247000C10E0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46FE8AB0236C247000C10E0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46FE8AB3236C247000C10E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FE8AB5236C247500C10E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FE8AB8236C247500C10E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FE8ABA236C247500C10E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FE8ABB236C247500C10E0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46FE8AC1236C247500C10E0E /* MXReplayKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXReplayKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FE8AC5236C247500C10E0E /* MXReplayKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXReplayKitDemoTests.m; sourceTree = "<group>"; };
+		46FE8AC7236C247500C10E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FE8ACC236C247500C10E0E /* MXReplayKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXReplayKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FE8AD0236C247500C10E0E /* MXReplayKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXReplayKitDemoUITests.m; sourceTree = "<group>"; };
+		46FE8AD2236C247500C10E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FE8ADE236C248300C10E0E /* MXReplayKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MXReplayKitDemo.entitlements; sourceTree = "<group>"; };
+		46FE8ADF236C24CA00C10E0E /* MXReplayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXReplayManager.h; sourceTree = "<group>"; };
+		46FE8AE0236C24CB00C10E0E /* MXReplayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXReplayManager.m; sourceTree = "<group>"; };
+		46FE8AE2236C24E000C10E0E /* ReplayKit_Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReplayKit_Demo.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FE8AA3236C247000C10E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8ABE236C247500C10E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8AC9236C247500C10E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FE8A9D236C247000C10E0E = {
+			isa = PBXGroup;
+			children = (
+				46FE8AA8236C247000C10E0E /* MXReplayKitDemo */,
+				46FE8AC4236C247500C10E0E /* MXReplayKitDemoTests */,
+				46FE8ACF236C247500C10E0E /* MXReplayKitDemoUITests */,
+				46FE8AA7236C247000C10E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FE8AA7236C247000C10E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FE8AA6236C247000C10E0E /* MXReplayKitDemo.app */,
+				46FE8AC1236C247500C10E0E /* MXReplayKitDemoTests.xctest */,
+				46FE8ACC236C247500C10E0E /* MXReplayKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FE8AA8236C247000C10E0E /* MXReplayKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46FE8AE2236C24E000C10E0E /* ReplayKit_Demo.mp4 */,
+				46FE8ADE236C248300C10E0E /* MXReplayKitDemo.entitlements */,
+				46FE8AA9236C247000C10E0E /* AppDelegate.h */,
+				46FE8AAA236C247000C10E0E /* AppDelegate.m */,
+				46FE8AAC236C247000C10E0E /* SceneDelegate.h */,
+				46FE8AAD236C247000C10E0E /* SceneDelegate.m */,
+				46FE8AAF236C247000C10E0E /* ViewController.h */,
+				46FE8AB0236C247000C10E0E /* ViewController.m */,
+				46FE8ADF236C24CA00C10E0E /* MXReplayManager.h */,
+				46FE8AE0236C24CB00C10E0E /* MXReplayManager.m */,
+				46FE8AB2236C247000C10E0E /* Main.storyboard */,
+				46FE8AB5236C247500C10E0E /* Assets.xcassets */,
+				46FE8AB7236C247500C10E0E /* LaunchScreen.storyboard */,
+				46FE8ABA236C247500C10E0E /* Info.plist */,
+				46FE8ABB236C247500C10E0E /* main.m */,
+			);
+			path = MXReplayKitDemo;
+			sourceTree = "<group>";
+		};
+		46FE8AC4236C247500C10E0E /* MXReplayKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FE8AC5236C247500C10E0E /* MXReplayKitDemoTests.m */,
+				46FE8AC7236C247500C10E0E /* Info.plist */,
+			);
+			path = MXReplayKitDemoTests;
+			sourceTree = "<group>";
+		};
+		46FE8ACF236C247500C10E0E /* MXReplayKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FE8AD0236C247500C10E0E /* MXReplayKitDemoUITests.m */,
+				46FE8AD2236C247500C10E0E /* Info.plist */,
+			);
+			path = MXReplayKitDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FE8AA5236C247000C10E0E /* MXReplayKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FE8AD5236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemo" */;
+			buildPhases = (
+				46FE8AA2236C247000C10E0E /* Sources */,
+				46FE8AA3236C247000C10E0E /* Frameworks */,
+				46FE8AA4236C247000C10E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXReplayKitDemo;
+			productName = MXReplayKitDemo;
+			productReference = 46FE8AA6236C247000C10E0E /* MXReplayKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46FE8AC0236C247500C10E0E /* MXReplayKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FE8AD8236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemoTests" */;
+			buildPhases = (
+				46FE8ABD236C247500C10E0E /* Sources */,
+				46FE8ABE236C247500C10E0E /* Frameworks */,
+				46FE8ABF236C247500C10E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FE8AC3236C247500C10E0E /* PBXTargetDependency */,
+			);
+			name = MXReplayKitDemoTests;
+			productName = MXReplayKitDemoTests;
+			productReference = 46FE8AC1236C247500C10E0E /* MXReplayKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46FE8ACB236C247500C10E0E /* MXReplayKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FE8ADB236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemoUITests" */;
+			buildPhases = (
+				46FE8AC8236C247500C10E0E /* Sources */,
+				46FE8AC9236C247500C10E0E /* Frameworks */,
+				46FE8ACA236C247500C10E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FE8ACE236C247500C10E0E /* PBXTargetDependency */,
+			);
+			name = MXReplayKitDemoUITests;
+			productName = MXReplayKitDemoUITests;
+			productReference = 46FE8ACC236C247500C10E0E /* MXReplayKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FE8A9E236C247000C10E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					46FE8AA5236C247000C10E0E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					46FE8AC0236C247500C10E0E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 46FE8AA5236C247000C10E0E;
+					};
+					46FE8ACB236C247500C10E0E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 46FE8AA5236C247000C10E0E;
+					};
+				};
+			};
+			buildConfigurationList = 46FE8AA1236C247000C10E0E /* Build configuration list for PBXProject "MXReplayKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FE8A9D236C247000C10E0E;
+			productRefGroup = 46FE8AA7236C247000C10E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FE8AA5236C247000C10E0E /* MXReplayKitDemo */,
+				46FE8AC0236C247500C10E0E /* MXReplayKitDemoTests */,
+				46FE8ACB236C247500C10E0E /* MXReplayKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FE8AA4236C247000C10E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FE8AB9236C247500C10E0E /* LaunchScreen.storyboard in Resources */,
+				46FE8AB6236C247500C10E0E /* Assets.xcassets in Resources */,
+				46FE8AE3236C24E000C10E0E /* ReplayKit_Demo.mp4 in Resources */,
+				46FE8AB4236C247000C10E0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8ABF236C247500C10E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8ACA236C247500C10E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FE8AA2236C247000C10E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FE8AB1236C247000C10E0E /* ViewController.m in Sources */,
+				46FE8AE1236C24CB00C10E0E /* MXReplayManager.m in Sources */,
+				46FE8AAB236C247000C10E0E /* AppDelegate.m in Sources */,
+				46FE8ABC236C247500C10E0E /* main.m in Sources */,
+				46FE8AAE236C247000C10E0E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8ABD236C247500C10E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FE8AC6236C247500C10E0E /* MXReplayKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE8AC8236C247500C10E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FE8AD1236C247500C10E0E /* MXReplayKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FE8AC3236C247500C10E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FE8AA5236C247000C10E0E /* MXReplayKitDemo */;
+			targetProxy = 46FE8AC2236C247500C10E0E /* PBXContainerItemProxy */;
+		};
+		46FE8ACE236C247500C10E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FE8AA5236C247000C10E0E /* MXReplayKitDemo */;
+			targetProxy = 46FE8ACD236C247500C10E0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46FE8AB2236C247000C10E0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FE8AB3236C247000C10E0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FE8AB7236C247500C10E0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FE8AB8236C247500C10E0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FE8AD3236C247500C10E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46FE8AD4236C247500C10E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FE8AD6236C247500C10E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MXReplayKitDemo/MXReplayKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 3LFUT43GUV;
+				INFOPLIST_FILE = MXReplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FE8AD7236C247500C10E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MXReplayKitDemo/MXReplayKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 3LFUT43GUV;
+				INFOPLIST_FILE = MXReplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46FE8AD9236C247500C10E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXReplayKitDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXReplayKitDemo.app/MXReplayKitDemo";
+			};
+			name = Debug;
+		};
+		46FE8ADA236C247500C10E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXReplayKitDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXReplayKitDemo.app/MXReplayKitDemo";
+			};
+			name = Release;
+		};
+		46FE8ADC236C247500C10E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXReplayKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MXReplayKitDemo;
+			};
+			name = Debug;
+		};
+		46FE8ADD236C247500C10E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXReplayKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.MXReplayKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MXReplayKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FE8AA1236C247000C10E0E /* Build configuration list for PBXProject "MXReplayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FE8AD3236C247500C10E0E /* Debug */,
+				46FE8AD4236C247500C10E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FE8AD5236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FE8AD6236C247500C10E0E /* Debug */,
+				46FE8AD7236C247500C10E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FE8AD8236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FE8AD9236C247500C10E0E /* Debug */,
+				46FE8ADA236C247500C10E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FE8ADB236C247500C10E0E /* Build configuration list for PBXNativeTarget "MXReplayKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FE8ADC236C247500C10E0E /* Debug */,
+				46FE8ADD236C247500C10E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FE8A9E236C247000C10E0E /* Project object */;
+}
